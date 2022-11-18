@@ -398,6 +398,8 @@ input, select, textarea {
 
 		.row > .col-4 {
 			width: 33.33333%;
+			display: flex;
+			
 		}
 
 		.row > .off-4 {
@@ -2601,6 +2603,7 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+				
 			}
 
 		.image.main {
