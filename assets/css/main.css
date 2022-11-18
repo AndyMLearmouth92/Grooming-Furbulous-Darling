@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #4f3d7b;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2440,7 +2440,7 @@ input, select, textarea {
 				text-align: center;
 				top: 0;
 				width: 2.0625em;
-			}
+			} 
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
@@ -3239,7 +3239,7 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: #261c3e00;
 		}
 
 		.wrapper.style1 {
@@ -3259,7 +3259,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: rgb(28, 81, 138);
 		}
 
 		.wrapper.style3-alt {
