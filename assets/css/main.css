@@ -2577,11 +2577,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 100%;
-		}
-
-		.image.left, .image.right {
-			max-width: 100%;
+			max-width: 50%;
 		}
 
 			.image.left img, .image.right img {
@@ -2595,18 +2591,11 @@ input, select, textarea {
 			width: 30%;
 		}
 
-		.top {
-			/* float: left; */
-			margin-right: 500px;
-			top: 0.25em;
-			width: 100%;
-		}
-
 		.image.right {
 			float: right;
 			margin: 0 0 1em 1.5em;
 			top: 0.25em;
-			width: 30%;
+			width: 50%;
 		}
 
 		.image.fit {
