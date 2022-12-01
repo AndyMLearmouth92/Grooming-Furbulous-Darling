@@ -2619,37 +2619,47 @@ input, select, textarea {
 				width: 100%;
 			}
 
-			@media screen and (max-width: 1024px) {
-				.row > .col-3{
-					width: 50%;	
+			@media screen and (max-width: 1200px) {
+				.row > .col-3.gallery{
+					width: 33%;	
 				}
 				}
+			
+				@media screen and (max-width: 768px) {
+					.image.right, .image.left {
+						float:none;	
+						width: 75%;
+						display: block;
+						margin: 0 auto;
+						padding-bottom: 20px;
+					  }
+					  .box.alt, .row {
+					  display: block;
+						width: 100%;
+						margin: 0 auto;
+					  }
+					  .row > .col-3{
+						  width: 75%;
+						  display: block;
+						  margin: 0 auto;
+		  
+					  }
+					  .row > .col-6{
+						  display: block;
+						  width: 75%;
+						  margin: 0 auto;
+						  padding-bottom: 20px;
+					  }
+					  .row > .col-3.gallery{
+						width: 50%;	
+						float:left;
+					}
+					}
 
-			@media screen and (max-width: 768px) {
-				.image.right, .image.left {
-				  float:none;	
-				  width: 75%;
-				  display: block;
-				  margin: 0 auto;
-				  padding-bottom: 20px;
-				}
-				.box.alt, .row {
-				display: block;
-				  width: 100%;
-				  margin: 0 auto;
-				}
-				.row > .col-3{
-					width: 75%;
-					display: block;
-					margin: 0 auto;
-	
-				}
-				.row > .col-6{
-					display: block;
-					width: 75%;
-					margin: 0 auto;
-					padding-bottom: 20px;
-	
+			@media screen and (max-width: 400px) {
+				.row > .col-3.gallery{
+					float:none;
+					width: 80%;	
 				}
 			}
 
@@ -3280,6 +3290,7 @@ input, select, textarea {
 
 		.wrapper.alt {
 			background-color: #863A6F;
+			clear:both;
 		}
 
 		.wrapper.style1 {
