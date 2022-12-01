@@ -2577,7 +2577,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 50%;
+			max-width: 100%;
 		}
 
 			.image.left img, .image.right img {
@@ -2619,7 +2619,41 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			@media screen and (max-width: 1024px) {
+				.row > .col-3{
+					width: 50%;	
+				}
+				}
 
+			@media screen and (max-width: 768px) {
+				.image.right, .image.left {
+				  float:none;	
+				  width: 75%;
+				  display: block;
+				  margin: 0 auto;
+				  padding-bottom: 20px;
+				}
+				.box.alt, .row {
+				display: block;
+				  width: 100%;
+				  margin: 0 auto;
+				}
+				.row > .col-3{
+					width: 75%;
+					display: block;
+					margin: 0 auto;
+	
+				}
+				.row > .col-6{
+					display: block;
+					width: 75%;
+					margin: 0 auto;
+					padding-bottom: 20px;
+	
+				}
+			}
+
+			
 			
 
 /* List */
@@ -3917,35 +3951,6 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 600px) {
-			.image.right, .image.left {
-			  float:none;	
-			  max-width: 100%; 
-			  width: 75%;
-			  display: block;
-			  margin: 0 auto;
-			  padding-bottom: 20px;
-			}
-			.box.alt, .row {
-			display: block;
-			  max-width: 100%; 
-			  width: 100%;
-			  margin: 0 auto;
-			}
-			.row > .col-3{
-				max-width: 100%;
-				width: 75%;
-				display: block;
-				margin: 0 auto;
-
-			}
-			.row > .col-6{
-				display: block;
-				width: 75%;
-				margin: 0 auto;
-				padding-bottom: 20px;
-
-			}
-		}
+		
 
 		
