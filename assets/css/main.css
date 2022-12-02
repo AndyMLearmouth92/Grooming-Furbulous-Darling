@@ -2618,10 +2618,16 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
+			img.logo{
+				width: 40%;
+			}
 
 			@media screen and (max-width: 1200px) {
 				.row > .col-3.gallery{
-					width: 33%;	
+					width: 33%;
+				}
+				img.logo{
+					width:50%;
 				}
 				}
 			
@@ -2650,16 +2656,25 @@ input, select, textarea {
 						  margin: 0 auto;
 						  padding-bottom: 20px;
 					  }
+					  .row.gallery, .box.alt.gallery{
+						display: flex;
+						align-items: center;
+					  }
 					  .row > .col-3.gallery{
 						width: 50%;	
-						float:left;
+					}
+					img.logo{
+						width: 70%;
 					}
 					}
 
 			@media screen and (max-width: 400px) {
 				.row > .col-3.gallery{
-					float:none;
+					display: block;
 					width: 80%;	
+				}
+				img.logo{
+					width:80%;
 				}
 			}
 
