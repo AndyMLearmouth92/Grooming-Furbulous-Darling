@@ -2634,16 +2634,12 @@ input, select, textarea {
 				@media screen and (max-width: 768px) {
 					.image.right, .image.left {
 						float:none;	
-						width: 75%;
+						width: 90%;
 						display: block;
 						margin: 0 auto;
 						padding-bottom: 20px;
 					  }
-					  .box.alt, .row {
-					  display: block;
-						width: 100%;
-						margin: 0 auto;
-					  }
+					  
 					  .row > .col-3{
 						  width: 75%;
 						  display: block;
@@ -2656,10 +2652,7 @@ input, select, textarea {
 						  margin: 0 auto;
 						  padding-bottom: 20px;
 					  }
-					  .row.gallery, .box.alt.gallery{
-						display: flex;
-						align-items: center;
-					  }
+
 					  .row > .col-3.gallery{
 						width: 50%;	
 					}
@@ -2670,8 +2663,8 @@ input, select, textarea {
 
 			@media screen and (max-width: 400px) {
 				.row > .col-3.gallery{
-					display: block;
-					width: 80%;	
+					width: 100%;	
+					
 				}
 				img.logo{
 					width:80%;
