@@ -334,7 +334,7 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: stretch;
+		align-items: center;
 	}
 
 		.row > * {
@@ -2625,6 +2625,7 @@ input, select, textarea {
 			@media screen and (max-width: 1200px) {
 				.row > .col-3.gallery{
 					width: 33%;
+					align-items: center;
 				}
 				img.logo{
 					width:50%;
